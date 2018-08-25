@@ -189,7 +189,7 @@ function fight() {
         $("#selectedHp").text(myHp);
         if (myHp <= 0){
             $("#result").text("You have been defeated....GAME OVER!");
-            $("#restart").append('<input type="button" id="restartButton" onclick="restart()" value="Restart"/>');
+            $("#restart").append('<input type="button" id="restartButton" onclick="restart()" value="Restart" style="font-size:40px; margin: 30px; padding: 20px; border: 5px solid black;">');
             canFight = false;
         } else if (defenderHp < 0){
             $("#result").text("You have defeated " + defender.name + ", you can choose to fight another enemy.");
