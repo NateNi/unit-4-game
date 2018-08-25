@@ -269,7 +269,8 @@ function addEnemy1(toAdd) {
         "padding-right": "20px",
         "padding-bottom": "40px",
         "border": "3px solid black",
-        "background-color": "red"})
+        "background-color": "red",
+        "width": "200px"})
 }
 
 function addEnemy2(toAdd) {
@@ -280,7 +281,8 @@ function addEnemy2(toAdd) {
         "padding-right": "20px",
         "padding-bottom": "40px",
         "border": "3px solid black",
-        "background-color": "red"})
+        "background-color": "red",
+        "width": "200px"})
 }
 
 function addEnemy3(toAdd) {
@@ -291,7 +293,8 @@ function addEnemy3(toAdd) {
         "padding-right": "20px",
         "padding-bottom": "40px",
         "border": "3px solid black",
-        "background-color": "red"})
+        "background-color": "red",
+        "width": "200px"})
 }
 
 function clearDefend() {
